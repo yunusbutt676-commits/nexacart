@@ -1,0 +1,62 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+/auth.json
+/secrets/
+/storage/*.key
+*.pem
+*.p12
+*.pfx
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Frontend build files
+/public/build/
+/public/hot/
+
+# Uploaded files and public storage link
+/public/storage
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/app/private/*
+!/storage/app/private/.gitignore
+
+# Laravel runtime files
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Local databases and backups
+/database/*.sqlite
+/database/*.sqlite-*
+/backups/
+*.sql
+*.sql.gz
+
+# Tests and coverage
+/.phpunit.cache/
+/.phpunit.result.cache
+/coverage/
+
+# Logs
+*.log
+
+# Editor and operating-system files
+/.idea/
+/.vscode/
+/.fleet/
+.DS_Store
+Thumbs.db
+Desktop.ini
